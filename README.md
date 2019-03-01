@@ -3,6 +3,6 @@ Simple and minimal dockerfile example to configure now.zeit to act as endpoint f
 
 First configure your database and make a schema to get/post the API requests. Create a role and grant this schema right permissions. 
 
-Put in your dockerfile apropriate credencials, like IP, user/password, database, API schema and role name. Must have now.json file v1.
+Put in your dockerfile apropriate credencials, like IP, user/password, database, API schema and role name. Must have now.json file "v1" definition.
 
 It works like a charm!. 
