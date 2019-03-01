@@ -1,0 +1,9 @@
+FROM postgrest/postgrest
+
+ENV PGRST_DB_URI=postgres://user:password@000.000.000.000:5432/database \
+PGRST_DB_SCHEMA=XXX \
+PGRST_DB_ANON_ROLE=XXX \
+
+PGRST_SERVER_PORT=3000
+
+EXPOSE 3000
